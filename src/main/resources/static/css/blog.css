@@ -78,3 +78,10 @@
     margin-bottom: 0;
   }
   
+  .hot-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  

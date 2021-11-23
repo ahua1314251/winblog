@@ -60,7 +60,8 @@ public class MvcConfigurationLayout extends WebMvcConfigurationSupport {
 //
 //
 //            registry.addResourceHandler("/plugins/**").addResourceLocations("classpath:/static/plugins/");
-        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/css/**").addResourceLocations("classpath:/static/css/");
+        registry.addResourceHandler("/js/**").addResourceLocations("classpath:/static/js/");
 
     }
 }
